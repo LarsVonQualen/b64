@@ -1,4 +1,8 @@
-b64
-===
+# b64
 
 Commandline Tool for encoding and decoding files as base64.
+
+## Usage
+    node b64.js some/path/to.file
+    
+The base64 encoded string will be written to `some/path/to.file.base64`.
