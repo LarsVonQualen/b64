@@ -10,10 +10,16 @@ Commandline Tool for encoding and decoding files as base64.
 ## Usage
 ### Encoding
 
-`b64-cli encode some/path/to.file`
+```bash
+b64-cli encode some/path/to.file
+```
+
 The base64 encoded string will be written to `some/path/to.file.base64`.
 
 ### Decoding
 
-`b64-cli decode some/path/to.file.base64`
+```bash
+b64-cli decode some/path/to.file.base64
+```
+
 The base64 decoded string will be written to `some/path/to.file.bin`.
