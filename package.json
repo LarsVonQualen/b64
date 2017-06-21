@@ -1,0 +1,20 @@
+{
+  "name": "b64-cli",
+  "version": "1.0.1",
+  "description": "Simple CLI tool for encoding/decoding files as base64",
+  "bin": "src/b64.js",
+  "main": "bin/b64",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/LarsVonQualen/b64.git"
+  },
+  "author": "Lars von Qualen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LarsVonQualen/b64/issues"
+  },
+  "homepage": "https://github.com/LarsVonQualen/b64"
+}

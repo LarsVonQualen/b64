@@ -18,7 +18,7 @@ function main() {
                         });
                     }
                 });
-                console.log("Done! Encoded file: " + process.argv[3] + ".base64");
+                console.log("Done! Encoded file into: " + process.argv[3] + ".base64");
                 break;
             case "decode":
                 console.log("Decoding " + process.argv[3] + " to binary.");
@@ -35,10 +35,9 @@ function main() {
                         });
                     }
                 });
-                console.log("Done! Decoded file: " + process.argv[3] + ".bin");
+                console.log("Done! Decoded file into: " + process.argv[3] + ".bin");
                 break;
             default:
-                console.log("Sup Laaawl!");
                 console.log("Usage");
                 console.log("node b64.js encode/decode some/path/to.file");
                 break;
@@ -48,4 +47,4 @@ function main() {
     }    
 };
 
-main();
+module.exports = main;
