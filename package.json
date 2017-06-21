@@ -1,9 +1,9 @@
 {
   "name": "b64-cli",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "Simple CLI tool for encoding/decoding files as base64",
-  "bin": "src/b64.js",
-  "main": "src/b64.js",
+  "bin": "bin/b64",
+  "main": "bin/b64",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
