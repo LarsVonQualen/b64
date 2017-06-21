@@ -1,6 +1,6 @@
 {
   "name": "b64-cli",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Simple CLI tool for encoding/decoding files as base64",
   "bin": "src/b64.js",
   "main": "bin/b64",
