@@ -5,7 +5,7 @@ function encode(data) {
 }
 
 function decode(data) {
-  return new Buffer(data, 'base64').toString('binary');
+  return new Buffer(data.toString('binary'), 'base64');
 }
 
 function main() {
